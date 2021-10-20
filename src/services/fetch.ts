@@ -17,6 +17,7 @@ export default async function authorizedRequest(url: string, opts = {}) {
     ...opts,
     headers: {
       'Content-Type': 'application/json',
+      'Access-Control-Allow-Origin': '*',
     },
     url,
   };
