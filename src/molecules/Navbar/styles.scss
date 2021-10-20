@@ -1,9 +1,11 @@
 .container {
-  overflow: hidden;
-  background-color: transparent;
-  box-shadow: 60px -16px teal;
-  position: fixed;
-  top: 0;
-  width: 100%;
+  // overflow: hidden;
+  background-color: #fff;
   padding: 0px 60px;
+  top: 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  display: flex;
 }

@@ -1,0 +1,12 @@
+a {
+  color: rgb(202, 201, 201);
+  text-decoration: none;
+  margin: 0px 15px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.5s;
+  &:hover {
+    color: #333;
+    font-size: 20px;
+    border-bottom: 2px solid red;
+  }
+}

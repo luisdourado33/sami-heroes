@@ -1,0 +1,7 @@
+h1 {
+  transition: all 0.2s;
+  &:hover {
+    color: red;
+    cursor: pointer;
+  }
+}

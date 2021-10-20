@@ -1,10 +1,14 @@
 import React from 'react';
+import './styles.scss';
 
-type IProps = {
+export type INavItem = {
+  id: number;
   label: string;
   url?: string;
 };
 
-const NavbarItem = ({ label, url = '/' }: IProps) => {
+const NavbarItem = ({ label, url = '/' }: INavItem) => {
   return <a href={url}>{label}</a>;
 };
+
+export default NavbarItem;

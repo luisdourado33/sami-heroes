@@ -1,0 +1,16 @@
+.scope-card {
+  background-color: #eee;
+  padding: 30px;
+  margin: 30px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  border-radius: 10px;
+
+  &:hover {
+    cursor: pointer;
+    border-width: 5px;
+    border-color: red;
+  }
+}
