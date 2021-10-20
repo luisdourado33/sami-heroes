@@ -13,6 +13,20 @@ const List = () => {
         <HeroCard />
         <HeroCard />
         <HeroCard />
+        <HeroCard />
+        <HeroCard />
+        <HeroCard />
+        <HeroCard />
+        <HeroCard />
+        <HeroCard />
+        <HeroCard />
+        <HeroCard />
+        <HeroCard />
+        <HeroCard />
+        <HeroCard />
+        <HeroCard />
+        <HeroCard />
+        <HeroCard />
       </div>
     </div>
   );
