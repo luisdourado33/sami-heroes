@@ -1,25 +1,25 @@
 import React, { useEffect } from 'react';
 
 import { useAppSelector, useAppDispatch } from '../../app/hooks';
-import { getAll, selectHeroes } from 'src/features/heroes/heroesSlice';
-import { selectCount } from 'src/features/counter/counterSlice';
 
-import NavbarMenu from 'src/molecules/Navbar';
+import {
+  selectHero,
+  fetchAllHeroes
+} from 'src/features/heroes/heroesSlice';
+
 import List from 'src/templates/List';
 
 function Home() {
-  const heroes = useAppSelector(selectHeroes);
-  const count = useAppSelector(selectCount);
+  const state = useAppSelector(selectHero);
   const dispatch = useAppDispatch();
 
   useEffect(() => {
-    console.log(heroes);
+    dispatch(fetchAllHeroes());
   }, []);
 
   return (
     <div>
-      <NavbarMenu />
-      <List />
+      <List heroes={state.heroes} />
     </div>
   );
 }

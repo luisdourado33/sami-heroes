@@ -1,41 +1,80 @@
-import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit';
-import api from 'src/services/api';
-import { RootState, AppThunk } from '../../app/store';
+import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
+import { RootState } from '../../app/store';
+import { Hero } from './heroes.types';
+import { fetchHeroes } from './heroesAPI';
 
-export interface HeroesState {
-  value: any;
-}
-
-const initialState: HeroesState = {
-  value: getAll(),
+export interface HeroState {
+  hero: Hero,
+  heroes?: Hero[]
 };
 
-export async function getAll() {
-  try {
-    let req: any = await api.get('/1');
+const initialState: HeroState = {
+  hero: {
+    id: "",
+    name: "",
+    powerstats: {
+      strength: "",
+      speed: "",
+      intelligence: "",
+      durability: "",
+      power: "",
+      combat: "",
+    },
 
-    if (req.status === 200) {
-      if (req.data?.response === 'success') {
-        let hero = req.data;
+    biography: {
+      "full-name": "",
+      "alter-egos": "",
+      aliases: [],
+      "place-of-birth": "",
+      "first-appearance": "",
+      publisher: "",
+      alignment: "",
+    },
 
-        return [hero];
-      }
-    } else {
-      return [];
-    }
-  } catch (error) {}
-}
+    appearance: {
+      gender: "",
+      race: "",
+      height: [],
+      weight: [],
+    },
+
+    work: {
+      occupation: "",
+      base: "",
+    },
+
+    connections: {
+      "group-affiliation": "",
+      relatives: "",
+    },
+
+    image: {
+      url: "",
+    },
+  },
+  heroes: []
+};
+
+export const fetchAllHeroes = createAsyncThunk(
+  'heroes/fetchAllHeroes',
+  async () => {
+    const response: any = await fetchHeroes();
+
+    return response.data.results;
+  }
+);
 
 export const heroesSlice = createSlice({
-  name: 'heroes',
+  name: 'heroesSlice',
   initialState,
-
-  reducers: {
-    getByName: () => {},
-    getByPower: () => {},
-  },
+  reducers: {},
+  extraReducers: (builder) => {
+    builder.addCase(fetchAllHeroes.fulfilled, (state, action) => {
+      state.heroes = action.payload;
+    })
+  }
 });
 
-export const selectHeroes = (state: RootState) => state.heroes.value;
+export const selectHero = (currentState: RootState) => currentState.state;
 
 export default heroesSlice.reducer;

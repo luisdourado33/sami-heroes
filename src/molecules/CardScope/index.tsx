@@ -3,14 +3,19 @@ import './styles.scss';
 
 import CardImage from 'src/atoms/CardImage';
 import ImageContainer from 'src/atoms/ImageContainer';
+import { Hero } from 'src/features/heroes/heroes.types';
 
-const CardScope = () => {
+interface IProps {
+  hero?: Hero;
+}
+
+const CardScope = ({ hero }: IProps) => {
   return (
     <div className='scope-card'>
       <ImageContainer>
-        <CardImage src='https://www.superherodb.com/pictures2/portraits/10/100/639.jpg' />
+        <CardImage src={String(hero?.image.url)} />
       </ImageContainer>
-      <h1>Hero</h1>
+      <h1>{hero?.name}</h1>
       <div className='action-row'>
         <p className='description'>
           Lorem Ipsum sit amet dolor amet dolor amet dolor amet dolor amet dolor
