@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import './styles.scss';
 
-import { useAppDispatch } from '../../app/hooks';
+import { useAppDispatch } from 'src/app/hooks';
 import { fetchAllHeroes, fetchByName } from 'src/features/heroes/heroesSlice';
 
-import SearchBarContainer from 'src/atoms/SearchBarContainer';
-import SearchBarInput from 'src/atoms/SearchBarInput';
-import SearchBarButton from 'src/atoms/SearchBarButton';
-import SearchBarResetList from 'src/atoms/SearchBarResetList';
+import SearchBarContainer from 'src/components/atoms/SearchBarContainer';
+import SearchBarInput from 'src/components/atoms/SearchBarInput';
+import SearchBarButton from 'src/components/atoms/SearchBarButton';
+import SearchBarResetList from 'src/components/atoms/SearchBarResetList';
 
 const optionsStyle: React.CSSProperties = {
   borderRadius: 15,

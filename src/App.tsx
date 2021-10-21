@@ -2,7 +2,7 @@ import React from 'react';
 import './styles.scss';
 
 import Routes from 'src/routes';
-import NavbarMenu from './molecules/Navbar';
+import NavbarMenu from 'src/components/molecules/Navbar';
 
 const App = () => {
   return (

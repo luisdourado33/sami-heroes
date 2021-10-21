@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.scss';
 
-import Brand from 'src/atoms/Brand';
+import Brand from 'src/components/atoms/Brand';
 import ItemsNavbar from '../ItemsNavbar';
 
 const itemsNavbar = [

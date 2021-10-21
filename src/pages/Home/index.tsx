@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import './styles.scss';
 
-import { useAppSelector, useAppDispatch } from '../../app/hooks';
+import { useAppSelector, useAppDispatch } from 'src/app/hooks';
 import { selectHero, fetchAllHeroes } from 'src/features/heroes/heroesSlice';
 
 import List from 'src/templates/List';

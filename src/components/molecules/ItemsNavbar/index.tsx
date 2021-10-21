@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.scss';
 
-import NavbarItem, { INavItem } from 'src/atoms/NavbarItem';
+import NavbarItem, { INavItem } from 'src/components/atoms/NavbarItem';
 
 interface IProps {
   items: INavItem[];

@@ -3,8 +3,8 @@ import './styles.scss';
 
 import { Hero } from 'src/features/heroes/heroes.types';
 
-import CardImage from 'src/atoms/CardImage';
-import ImageContainer from 'src/atoms/ImageContainer';
+import CardImage from 'src/components/atoms/CardImage';
+import ImageContainer from 'src/components/atoms/ImageContainer';
 
 interface IProps {
   hero?: Hero;
