@@ -6,7 +6,7 @@ import { Hero } from 'src/features/heroes/heroes.types';
 
 interface IProps {
   hero?: Hero;
-};
+}
 
 const HeroCard = () => {
   return (

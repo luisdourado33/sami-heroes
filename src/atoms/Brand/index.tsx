@@ -6,7 +6,12 @@ interface BrandProps {
 }
 
 const Brand = ({ title }: BrandProps) => {
-  return <h1>{title ?? 'sami • heroes'}</h1>;
+  return (
+    <h1>
+      <i className='fa-solid fa-atom'></i>
+      {title ?? 'sami • heroes'}
+    </h1>
+  );
 };
 
 export default Brand;

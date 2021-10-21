@@ -1,0 +1,20 @@
+.container {
+  border-radius: 15px;
+  border-color: #eee;
+  border-width: 0.1px;
+}
+
+.search-bar-input {
+  background-color: #eee;
+  border-radius: 15px;
+  border-width: 0px;
+  flex: 0;
+  padding: 15px;
+  margin: 0px 5px;
+  transition: flex 1s;
+  &:focus {
+    border-width: 0.1px;
+    color: purple;
+    flex: 1;
+  }
+}

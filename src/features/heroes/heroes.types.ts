@@ -12,12 +12,12 @@ export interface Hero {
   };
 
   biography: {
-    "full-name": string;
-    "alter-egos": string;
+    'full-name': string;
+    'alter-egos': string;
     aliases: string[];
-    "place-of-birth": string;
+    'place-of-birth': string;
     publisher: string;
-    "first-appearance": string;
+    'first-appearance': string;
     alignment: string;
   };
 
@@ -34,7 +34,7 @@ export interface Hero {
   };
 
   connections: {
-    "group-affiliation": string;
+    'group-affiliation': string;
     relatives: string;
   };
 

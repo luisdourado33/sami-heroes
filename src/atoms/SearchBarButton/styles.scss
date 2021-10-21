@@ -1,0 +1,9 @@
+.search-bar-button {
+  border-radius: 15px;
+  border-color: #eee;
+  border-style: dashed;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

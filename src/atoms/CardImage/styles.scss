@@ -1,8 +1,27 @@
+$base_top: -50px;
+
 .image-container {
+  background-color: transparent;
+  align-items: center;
+  top: $base_top;
+  position: relative;
+  justify-content: center;
+  display: flex;
+  transition: top 0.5s;
+  &:hover {
+    top: $base_top - 10px;
+  }
 }
 
+$base_width: 130px;
+
 .image-properties {
-  width: 130px;
+  width: $base_width;
   position: relative;
   border-radius: 10px;
+  background-color: transparent;
+
+  &:hover {
+    width: $base_width + 5px;
+  }
 }

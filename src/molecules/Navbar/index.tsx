@@ -6,16 +6,19 @@ import ItemsNavbar from '../ItemsNavbar';
 
 const itemsNavbar = [
   { id: 0, label: 'Home', url: '/' },
-  { id: 1, label: 'All heroes', url: '/all' },
+  {
+    id: 0,
+    label: 'GitHub',
+    url: 'https://github.com/luisdourado33/sami-heroes',
+  },
   { id: 2, label: 'About', url: '/about' },
 ];
 
 const NavbarMenu = () => {
   return (
     <div className='container'>
-      <Brand title='HeroesAPI' />
+      <Brand title='Sami-Heroes' />
       <ItemsNavbar items={itemsNavbar} />
-      <i className='fa-solid fa-search'></i>
     </div>
   );
 };
