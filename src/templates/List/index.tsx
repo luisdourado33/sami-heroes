@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 import './styles.scss';
 
 import { Hero } from 'src/features/heroes/heroes.types';
