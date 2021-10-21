@@ -8,7 +8,6 @@ import LoadState from './atoms/LoadState';
 const App = () => {
   return (
     <div className='main-container'>
-      {/* <LoadState /> */}
       <NavbarMenu />
       <Routes />
     </div>
