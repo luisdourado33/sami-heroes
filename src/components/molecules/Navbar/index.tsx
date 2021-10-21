@@ -16,7 +16,7 @@ const itemsNavbar = [
 
 const NavbarMenu = () => {
   return (
-    <div className='container'>
+    <div className='container-navbar'>
       <Brand title='Sami-Heroes' />
       <ItemsNavbar items={itemsNavbar} />
     </div>
