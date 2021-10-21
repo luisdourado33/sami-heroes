@@ -3,7 +3,6 @@ import './styles.scss';
 
 import Routes from 'src/routes';
 import NavbarMenu from './molecules/Navbar';
-import LoadState from './atoms/LoadState';
 
 const App = () => {
   return (
