@@ -72,7 +72,7 @@ const List = ({ heroes }: IProps) => {
             : 'No record(s) found.'}
         </p>
       </div>
-      <div className='container'>
+      <div className='container-list'>
         <button onClick={() => handleNav('left')} className='list-controller'>
           <i className='fa-solid fa-arrow-left'></i>
         </button>
