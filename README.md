@@ -42,7 +42,7 @@ Agora, acesse a pasta do projeto e execute a instalação das bibliotecas necess
 ```
 npm install
 // ou (recomendado)
-yarn start
+yarn
 ```
 
 Depois de ter finalizada a instalação da bibliotecas, basta iniciar o projeto com o seguinte comando:
