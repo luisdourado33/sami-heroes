@@ -15,7 +15,8 @@ const DetailsScope = ({ hero }: Props) => {
           flex: 1,
           display: 'flex',
           flexWrap: 'wrap',
-        }}>
+        }}
+      >
         <FormRow label='Full Name' value={hero.biography['full-name']} />
         <FormRow
           label='Place of Birth'

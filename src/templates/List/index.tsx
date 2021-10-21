@@ -59,9 +59,6 @@ const List = ({ heroes }: IProps) => {
       {showModal && (
         <Modal isOpen={showModal}>
           <ModalContent>
-            {/* <button onClick={() => setShowModal(false)}>
-              <h1 style={{ color: '#FFF' }}>Close (ESC)</h1>
-            </button> */}
             <CardScope hero={heroSelected} showDetails={false} />
             <DetailsScope hero={heroSelected} />
           </ModalContent>
@@ -76,7 +73,10 @@ const List = ({ heroes }: IProps) => {
         </p>
       </div>
       <div className='container'>
-        <div className='grid'>
+        <button onClick={() => handleNav('left')} className='list-controller'>
+          <i className='fa-solid fa-arrow-left'></i>
+        </button>
+        <div className='grid' ref={ref}>
           {heroes?.map((hero) => (
             <CardScope
               hero={hero}
@@ -85,6 +85,9 @@ const List = ({ heroes }: IProps) => {
             />
           ))}
         </div>
+        <button onClick={() => handleNav('right')} className='list-controller'>
+          <i className='fa-solid fa-arrow-right'></i>
+        </button>
       </div>
     </>
   );

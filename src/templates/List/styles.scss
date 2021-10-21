@@ -14,6 +14,7 @@
   background-color: #ffffff;
   background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png');
   justify-content: center;
+  scroll-behavior: smooth;
 }
 
 .load-state {
@@ -24,4 +25,19 @@
   flex-direction: column;
   height: 100vh;
   display: flex;
+}
+
+$base_width: 300px;
+.list-controller {
+  border-radius: 30px;
+  border-color: transparent;
+  background-color: #eee;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.5s;
+  &:hover {
+    cursor: pointer;
+  }
 }
