@@ -9,27 +9,12 @@
 </a>
   
 </div>
----
----
 ### Sami-Heroes: A sua enciclopédia de heróis 🥳 🚀
 
 - Este projeto trata a criação de uma plataforma para consulta de heróis e personagens icônicos.
 - API disponível em: [SuperHero API](https://www.superheroapi.com)
 
 ---
-
-<br />
-
-<div align="center">
-
-**[PROJECT PHILOSOPHY](https://github.com/chroline/well_app#-project-philosophy) • 
-[WIKI](https://github.com/chroline/well_app#-wiki) • 
-[TECH STACK](https://github.com/chroline/well_app#-tech-stack) • 
-[CONTRIBUTING](https://github.com/chroline/well_app#%EF%B8%8F-contributing) • 
-[SPREAD THE WORD](https://github.com/chroline/well_app#-spread-the-word) • 
-[LICENSE](https://github.com/chroline/well_app#%EF%B8%8F-license)**
-
-</div>
 
 <br />
 
