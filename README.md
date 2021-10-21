@@ -24,6 +24,7 @@ Essa lista possui uma visão geral à respeito das tecnologias utilizadas para a
 - Este projeto utiliza [ReactJS](https://pt-br.reactjs.org). ReactJS é uma biblioteca JavaScript para criar interfaces de usuário.
 - Para o gerencimento de estados, foi utilizado a biblioteca [Redux](https://redux.js.org) 
 - Identação e formatação de código foram dadas por conta do [StandardJS](https://standardjs.com) e Prettier + ESLint.
+- Para estilização de componentes foi utilizado a biblioteca para CSS,  [SASS](https://sass-lang.com).
 - A arquitetura e metodologia utilizada para a criação da aplicação é a [Atomic Design](https://atomicdesign.bradfrost.com/chapter-2/). 
 
 # 📝 Instalação
