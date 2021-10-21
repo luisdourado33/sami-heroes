@@ -11,7 +11,7 @@
 </div>
 
 # 🧐 Sobre o projeto
-> Este projeto faz parte do processo seletivo da empresa Sami Saúde.
+> Este projeto faz parte do processo seletivo da empresa Sami.
 > 
 > Todos os dados aqui utilizados foram obtidos através da API gratuita SuperHero API.
 
