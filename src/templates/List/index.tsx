@@ -3,10 +3,10 @@ import './styles.scss';
 
 import { Hero } from 'src/features/heroes/heroes.types';
 
+import Modal from 'src/components/atoms/Modal';
 import CardScope from 'src/components/molecules/CardScope';
 import LoadState from 'src/components/atoms/LoadState';
 import SearchBar from 'src/components/molecules/SearchBar';
-import Modal from 'src/components/atoms/Modal';
 import ModalContent from 'src/components/atoms/ModalContent';
 import DetailsScope from 'src/components/organisms/DetailsScope';
 
