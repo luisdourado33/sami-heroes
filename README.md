@@ -9,15 +9,6 @@
 </a>
   
 </div>
-### Sami-Heroes: A sua enciclopédia de heróis 🥳 🚀
-
-- Este projeto trata a criação de uma plataforma para consulta de heróis e personagens icônicos.
-- API disponível em: [SuperHero API](https://www.superheroapi.com)
-
----
-
-<br />
-
 # 🧐 Sobre o projeto
 
 > Este projeto faz parte do processo seletivo da empresa Sami Saúde..
