@@ -7,7 +7,7 @@ import ItemsNavbar from '../ItemsNavbar';
 const itemsNavbar = [
   { id: 0, label: 'Home', url: '/' },
   {
-    id: 0,
+    id: 1,
     label: 'GitHub',
     url: 'https://github.com/luisdourado33/sami-heroes',
   },
