@@ -12,6 +12,8 @@ export const fetchHeroes = async () => {
       return response;
     }
   } catch (error) {
+    console.log('Error on request.\n');
+    console.log(error);
     throw new Error();
   }
 };
