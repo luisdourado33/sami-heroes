@@ -11,8 +11,6 @@
 </div>
 
 # 🧐 Sobre o projeto
-> Este projeto faz parte do processo seletivo da empresa Sami.
-> 
 > Todos os dados aqui utilizados foram obtidos através da API gratuita SuperHero API.
 
 **Leia mais sobre a API em: [introdução](https://www.superheroapi.com).**
