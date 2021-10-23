@@ -64,8 +64,8 @@ const List = ({ heroes }: IProps) => {
           </ModalContent>
         </Modal>
       )}
-      <SearchBar />
-      <div style={{ paddingLeft: 60 }}>
+      <div className='search-group'>
+        <SearchBar />
         <p>
           {heroes?.length >= 0
             ? heroes.length + ' record(s) found.'
