@@ -9,14 +9,8 @@ type Props = { hero: Hero };
 const DetailsScope = ({ hero }: Props) => {
   return (
     <div className='details-container'>
-      <h1>Details (Press ESC to close)</h1>
-      <div
-        style={{
-          flex: 1,
-          display: 'flex',
-          flexWrap: 'wrap',
-        }}
-      >
+      {/* <h1>Details (Press ESC to close)</h1> */}
+      <div className='cards-wrapper'>
         <FormRow label='Full Name' value={hero.biography['full-name']} />
         <FormRow
           label='Place of Birth'

@@ -1,7 +1,6 @@
 import axios from 'axios';
 import { sessionToken } from './auth';
 
-// const corsProxyUrl = 'https://thingproxy.freeboard.io/fetch/';
 const corsProxyUrl = 'https://corsanywhere.herokuapp.com/';
 let endpoint = `${corsProxyUrl}https://superheroapi.com/api/${sessionToken}`;
 

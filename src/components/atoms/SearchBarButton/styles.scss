@@ -1,9 +1,12 @@
 .search-bar-button {
   border-radius: 15px;
-  border-color: #eee;
-  border-style: dashed;
-
+  border-color: transparent;
+  background-color: #6c00e7;
   &:hover {
     cursor: pointer;
   }
+}
+
+.icon-label {
+  color: #fff;
 }

@@ -9,10 +9,11 @@ interface IProps {
 
 const ItemsNavbar = ({ items }: IProps) => {
   return (
-    <div className='row'>
+    <div className='row-navbar'>
       {items.map((menuItem) => (
         <NavbarItem {...menuItem} key={menuItem.id} />
       ))}
+      <i className='fa-solid fa-bars sandwich'></i>
     </div>
   );
 };

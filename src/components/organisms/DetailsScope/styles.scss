@@ -1,6 +1,14 @@
 .details-container {
-  background-color: #eee;
+  background-color: #fff;
   padding: 15px;
   border-radius: 15px;
-  overflow: scroll;
+  width: 50vw;
+  margin-right: 300px;
+}
+
+.cards-wrapper {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
 }

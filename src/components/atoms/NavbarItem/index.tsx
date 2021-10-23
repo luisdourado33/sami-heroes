@@ -8,7 +8,11 @@ export type INavItem = {
 };
 
 const NavbarItem = ({ label, url = '/' }: INavItem) => {
-  return <a href={url}>{label}</a>;
+  return (
+    <a className='nav-item' href={url}>
+      {label}
+    </a>
+  );
 };
 
 export default NavbarItem;

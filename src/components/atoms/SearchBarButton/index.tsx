@@ -4,7 +4,7 @@ import './styles.scss';
 const SearchBarButton: React.FC<ButtonHTMLAttributes<{}>> = (props) => {
   return (
     <button className='search-bar-button' {...props}>
-      <i className='fa-solid fa-search'></i>
+      <i className='fa-solid fa-search icon-label'></i>
     </button>
   );
 };

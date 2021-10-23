@@ -1,7 +1,9 @@
 .search-bar-reset-button {
   border-radius: 15px;
-  border-style: dashed;
-  background-color: rgb(108, 0, 231);
+  border-color: #eee;
+  border-style: solid;
+  border-width: 0.1px;
+  background-color: #fff;
   margin: 0px 2px;
   transition: border-color 0.5s;
   &:hover {
@@ -11,5 +13,5 @@
 }
 .reset-label {
   margin-left: 5px;
-  color: #fff;
+  color: #333;
 }

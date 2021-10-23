@@ -1,4 +1,4 @@
-a {
+.nav-item {
   color: rgb(202, 201, 201);
   text-decoration: none;
   margin: 0px 15px;
@@ -8,5 +8,9 @@ a {
     color: #333;
     font-size: 20px;
     border-bottom: 2px solid blueviolet;
+  }
+
+  @media screen and (max-width: 768px) {
+    display: none;
   }
 }

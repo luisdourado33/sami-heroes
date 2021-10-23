@@ -22,19 +22,6 @@ const SearchBar = () => {
 
   return (
     <SearchBarContainer>
-      <input
-        type='text'
-        id='heroOpt'
-        list='powerstats'
-        placeholder='Powerstat'
-        style={optionsStyle}
-      />
-      <datalist id='powerstats'>
-        <option>Intelligence</option>
-        <option>Strength</option>
-        <option>Durability</option>
-        <option>Power</option>
-      </datalist>
       <SearchBarInput
         placeholder='Search by Name'
         id='searchBarName'
